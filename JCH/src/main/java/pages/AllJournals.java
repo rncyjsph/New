@@ -18,6 +18,7 @@ public class AllJournals extends BaseClass{
 	@FindBy(xpath="//div[@id=\"Action\"]//span[@class='jch-dropdown-iconset']")
 	WebElement dropdown;
 	
+	
 	@FindBy(xpath="//label[contains(text(),'Favorites')]")
 	WebElement favorites;
 	
